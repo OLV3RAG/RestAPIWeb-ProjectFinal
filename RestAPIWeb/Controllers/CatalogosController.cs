@@ -52,7 +52,7 @@ namespace RestAPIWeb.Controllers
             CatalogoNegocio catNeg = new CatalogoNegocio(configuration);
             gen = catNeg.ObtenerCatalogoGen();
             return gen;
-        }
+            }
         [HttpGet("ObtenerTipoPersonas")]
         public List<TipoPersona> ObtenerTipoPersonas()
         {
